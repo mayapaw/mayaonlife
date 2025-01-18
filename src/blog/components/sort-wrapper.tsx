@@ -14,13 +14,6 @@ export const SortWrapper = ({ children }: { children: React.ReactNode[] }) => {
           const dateA = new Date((a as ChildrenElementT).props?.date);
           const dateB = new Date((b as ChildrenElementT).props?.date);
 
-          console.log(
-            dateA,
-            (a as ChildrenElementT).props,
-            (b as ChildrenElementT).props,
-            dateB,
-          );
-
           return dateB.getTime() - dateA.getTime();
         })
         .map((child) => (

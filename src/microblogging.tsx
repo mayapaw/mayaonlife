@@ -2,6 +2,24 @@ import { Entry } from '@/blog/components/entry';
 
 export const microblogging = [
   <Entry
+    title={'Projekcik opublikowany!'}
+    date={'18/01/2025 22:47'}
+    key={'1737236833844'}
+  >
+    Dzisiaj opublikowałam swój pomysł z poprzedniego wpisu na GitHubie! 🚀
+    <br />
+    <br />
+    Możecie go zobaczyć pod tym linkiem:{' '}
+    <a
+      href={'https://github.com/mayapaw/kawaiify'}
+      target={'_blank'}
+      rel={'noopener noreferrer'}
+    >
+      https://github.com/mayapaw/kawaiify
+    </a>
+  </Entry>,
+
+  <Entry
     title={'Kawaiify Commits'}
     date={'18/01/2025 13:33'}
     key={'1737203616514'}
